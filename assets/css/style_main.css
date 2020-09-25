@@ -6,6 +6,10 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+.time{
+  transition:.8s;
+  
+}
 
 a {
   color: #ed502e;
