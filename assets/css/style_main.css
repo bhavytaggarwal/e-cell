@@ -1265,6 +1265,7 @@ section {
   overflow: hidden;
   transition: transform .3s;
   width:80%;
+  margin-bottom:5%;
 }
 
 .events .topic .topic-info {
