@@ -2008,9 +2008,19 @@ section {
   height:auto;
 
 }
-/* 
-.img-fluid{
-  width:auto;
-} */
+.modal-content{
+  background-image: url("../img/bg/bg-5.jpg");
+  color: white;
+  padding: 2% 5% 5% 5%;
+}
 
+.modal-content h1{
+  color:black;
+  font-weight: 900;
+}
+
+.modal-content p{
+  font-size: medium;
+  color:white
+}
 
