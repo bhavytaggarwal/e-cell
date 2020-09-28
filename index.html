@@ -415,20 +415,57 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <p>Social Links</p>
-          <div class="social time" data-aos="fade-down">
-                  <a href=""><i class="icofont-twitter"></i></a>
+    <div class="footer-top bottom" data-aos="fade-down">
+
+      
+<div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="container bottom">
+        <h4>Social links</h4>
+        <div class="row container">
+          <div class="social row bottom">
+                  <div class="col lg">
+                  <a href=""><i class="icofont-twitter "></i></a>
+                  </div>
+                  <div class="col lg">
                   <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
+                </div>
+                <div class="col lg">
+                  <a href="https://www.instagram.com/tarunnnn_/"><i class="icofont-instagram"></i></a>
+                </div>
+                <div class="col lg">
                   <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+                <div class="col lg">
                   <a href=""><i class="icofont-youtube"></i></a>
-              
-           </div>
+                </div>
+          </div>
         </div>
       </div>
+          <hr>
+        </div>
+        <div class="col-sm-4">
+          <div class="container">
+        <h4>Contact Details</h4>
+        <div class="row container">
+          <div class="social row bottom">
+                  <div class="col lg">
+                  <a href="tel:987643210"><i class="icofont-phone"></i></a>
+                  </div>
+                  <div class="col lg">
+                  <a href="mailto:tarun.reso27@gmail.com"><i class="icofont-email"></i></a>
+                </div>
+                
+                
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+
+
     </div>
 
     <div class="container">
@@ -499,65 +536,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
-  // Example starter JavaScript for disabling form submissions if there are invalid fields
-  (function() {
-    'use strict';
-    window.addEventListener('load', function() {
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var formslogin = document.getElementsByClassName('needs-validation-login');
-      var formsloginAuth = document.getElementsByClassName('needs-validation-loginAuth');
-      var formsloginSupp = document.getElementsByClassName('needs-validation-loginSupp');
-      var formsloginAuthSupp = document.getElementsByClassName('needs-validation-loginAuthSupp');
-
-      // Loop over them and prevent submission
-      var validationLog = Array.prototype.filter.call(formslogin, function(form) {
-        form.addEventListener('submit', function(event) {
-          if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-          }else {
-            event.preventDefault();
-            var active = $('.wizard1 .nav-tabs li.active');
-            active.next().removeClass('disabled');
-            nextTab(active);
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-
-      var validationLogSupp = Array.prototype.filter.call(formsloginSupp, function(form) {
-        form.addEventListener('submit', function(event) {
-          if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-          }else {
-            event.preventDefault();
-            var active = $('.wizard .nav-tabs li.active');
-            active.next().removeClass('disabled');
-            nextTab(active);
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-
-
-     
-
-      var validationLogAuthSupp = Array.prototype.filter.call(formsloginAuthSupp, function(form) {
-        form.addEventListener('submit', function(event) {
-          if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-          }else {
-
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-    }, false);
-  })();
-  </script>
+  
 
 </body>
 
