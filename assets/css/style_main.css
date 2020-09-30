@@ -2036,3 +2036,13 @@ section {
   justify-content: space-around;
   padding: 0 20% 0 20%;
 }
+
+#contact input{
+  color: white;
+  background-color: black;
+}
+
+#contact textarea{
+  color: white;
+  background-color: black;
+}
